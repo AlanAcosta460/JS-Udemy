@@ -1,33 +1,39 @@
 body {
-    background: #4b6cb7;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #182848, #4b6cb7);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #182848, #4b6cb7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #212121;
 }
 
 h1, p, a {
-    font-family: 'Carrois Gothic SC', sans-serif;
+    font-family: 'Roboto Mono', monospace;
     display: block;
     text-align: center;
     line-height:.8;
-    color: white;
+    color: #FEFF04;
 }
 .contenido {
     max-width: 1200px;
     margin: 5rem auto 0 auto;
-    color: white;
+    color: white; 
     font-size: 3rem;
-    font-family: 'Carrois Gothic SC', sans-serif;
+    font-family: 'Roboto Mono', monospace;
 }
 h1 {
     font-size: 4rem;
 }
-a {
-    font-size: 1.4rem;
-}
-p {
+a, p {
     font-size: 2.2rem;
 }
-
-.hashtag {
-    font-family: Arial, Helvetica, sans-serif;
+.github {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    
+}
+.github_titulo {
+    text-decoration: none;
+}
+.github_titulo:hover {
+    color: #624E9A;   
+}
+.icon {
+    margin: 2.2rem auto auto auto;
 }
